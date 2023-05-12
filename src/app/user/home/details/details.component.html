@@ -1,0 +1,27 @@
+<a routerLink="/details/{{service.id}}">
+<div id="Productdetails-container">
+    <div id="image-block">
+        <img src="http://localhost{{service.image}}">
+    </div>
+    <div id="description-block">
+       <h3>{{service.name}}</h3>
+       <h6>({{service.qty}})</h6>
+       <p>
+           {{service.description}}
+       </p>
+       <h2>
+            Price: &#8377;{{service.price}}
+       </h2>
+         Quantity <input type="number" [(ngModel)]="qty"  min="1" max="5"/><br/>
+        <button 
+        type="button"
+        class="btn" 
+       
+        [disabled]="!active"
+        >
+            {{buttonstatus}}
+            </button>
+            <br><br><br><br><br><br>
+    </div>
+</div>
+</a>

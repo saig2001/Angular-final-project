@@ -1,0 +1,38 @@
+
+  
+.menu-bar{
+    background-color: black !important;    
+    color: whitesmoke! important;    
+} 
+.title{
+font-size: 30px;
+font-weight: bolder;
+}
+
+.move{
+padding-left: 300px;
+}
+ul{
+margin-left: 90px;
+}
+li {
+
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+} 
+a {
+    color: whitesmoke;
+    size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{ 
+    color: violet;   
+}  
+a:active { 
+    color: rgb(200, 231, 241); 
+}

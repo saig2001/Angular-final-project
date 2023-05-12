@@ -1,0 +1,18 @@
+<mat-form-field >
+    <mat-label>Review/Query</mat-label>
+    <input matInput [(ngModel)]="query" class="mat-input">
+  </mat-form-field>
+  
+  <button mat-raised-button color="primary" class="b1" (click)="AddQuestion()">Post</button>
+  
+  <app-feedback-box *ngFor="let x of forumlist" [q]="x" class="app-feedback-box">
+    
+  </app-feedback-box>
+
+  <div class="user-login">
+    
+    <h2>Employee Reviews</h2>
+    
+<app-addemployee-box></app-addemployee-box>
+
+  

@@ -1,0 +1,57 @@
+.menu-bar {
+     background-color: black !important;
+     color: white !important;
+     display: flex; /* Add flex display */
+     align-items: center; /* Align items vertically in the center */
+     justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+   }
+   
+   .title {
+     font-size: 25px;
+     font-weight: bolder;
+   }
+   
+   .move {
+     padding-left: 60px;
+   }
+   
+   ul {
+     margin: 0;
+     padding: 0;
+     display: flex; /* Add flex display */
+     align-items: center; /* Align items vertically in the center */
+   }
+   
+   li {
+     list-style-type: none;
+     font-size: 18px;
+     margin-left: 10px;
+     margin-right: 20px;
+     margin-top: 4px;
+   }
+   
+   a {
+     color: whitesmoke;
+     font-size: 20px; /* Update 'size' to 'font-size' */
+     text-decoration: none;
+     cursor: pointer;
+   }
+   
+   a:hover {
+     color: violet;
+   }
+   
+   a:active {
+     color: rgb(200, 231, 241);
+   }
+   
+   .logout-button {
+     font-size: 19px;
+     color: inherit;
+     padding: 0;
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     margin-top: 0px;
+   }
+   

@@ -1,0 +1,61 @@
+<h3>Today's special</h3>
+  
+    <div class="rform">
+        <form  [formGroup]="additemsForm"  (submit)="saveFeedback()">
+               <table>
+
+                <tr>
+                    <th>Date</th>
+                    <td>
+                      <mat-form-field>
+                        <input matInput [matDatepicker]="picker" formControlName="date">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                      </mat-form-field>
+                    </td>
+                    <td>
+                      <div *ngIf="additemsForm.controls.date.hasError('required')">
+                        Date is required
+                      </div>
+                    </td>
+                  </tr>
+                   <tr>
+                   <th>Break fast</th>
+                   <td><input type="text" formControlName="name"></td>
+                   <td>
+                          <div *ngIf='additemsForm.controls.name.hasError("required")'>
+                                  Should be filled</div>
+                       <div *ngIf='additemsForm.controls.name.hasError("minlength")'>
+                        Enter the Breakfast item</div>
+                   </td>
+                   </tr>
+                    <tr>
+                   <th>Lunch</th>
+                   <td><input type="text" formControlName="email"></td>
+                   <td>
+                          <div *ngIf='additemsForm.controls.email.hasError("required")'>
+                                  Should be filled</div>
+                          <div *ngIf='additemsForm.controls.email.hasError("pattern")'>
+                            Enter the Lunch item</div>
+                   </td>
+                   </tr>
+                   <tr>
+                       <th>Dinner</th>
+                       <td><input type="text"  formControlName="message">
+                           </td>
+                       <td>
+                              <div *ngIf='additemsForm.controls.message.hasError("required")'>
+                                      Should be filled</div>
+                            <div *ngIf='additemsForm.controls.message.hasError("minlength")'>
+                                        Enter the Dinner item</div>
+                       </td>
+                   </tr>
+                   <tr><td colspan="3" style="text-align:center">
+                          <button type="submit"  class="btn btn-primary" [disabled]="!additemsForm.valid">
+                                     Add items</button>
+                      </td></tr>
+               </table>
+          
+          
+          </form>
+      </div>

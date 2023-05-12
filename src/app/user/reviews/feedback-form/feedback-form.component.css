@@ -1,0 +1,23 @@
+.forum-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .forum-card {
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .forum-content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .forum-content p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  

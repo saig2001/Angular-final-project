@@ -1,0 +1,30 @@
+.service-box {
+
+      padding-top: 30px;
+
+    background-color:darkgray;
+      width: 200px;
+      height: 100px;
+      margin: 40px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px #ccc;
+      text-align: center;
+      padding: 30px;
+      display:inline-block;
+      color: black;
+     }
+.p{
+    
+     padding-left: 30px;
+
+}
+
+.logo-image{
+     height: 200px;
+     width: 300px;
+}
+
+
+
+
+

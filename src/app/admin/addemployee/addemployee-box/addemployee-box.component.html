@@ -1,0 +1,14 @@
+<div class="addemployee-box">
+    <h3>Employee List</h3>
+    <ul class="employee-list">
+      <li *ngFor="let employee of employees" class="employee-item">
+        <div class="employee-card">
+          <div class="employee-id">ID: {{ employee.id }}</div>
+          <div class="employee-name">Name: {{ employee.name }}</div>
+          <div class="employee-age">Age: {{ employee.age }}</div>
+          <div class="employee-location">Location: {{ employee.location }}</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  

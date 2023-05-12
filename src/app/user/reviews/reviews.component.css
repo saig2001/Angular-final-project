@@ -1,0 +1,43 @@
+.mat-form-field {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .mat-label {
+    font-size: 16px;
+  }
+  
+  .mat-input {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  button.mat-raised-button.b1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .app-feedback-box {
+    margin-bottom: 10px;
+    padding: 10px;
+    
+  }
+  
+
+
+
+
+
+ 
+  
+  

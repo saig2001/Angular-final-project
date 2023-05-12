@@ -1,0 +1,12 @@
+.move{
+    padding-left: 30px;
+}
+
+.filter{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 8px;
+    width: 200px;
+    background-color: lightgray;
+}

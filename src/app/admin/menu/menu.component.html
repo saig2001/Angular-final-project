@@ -1,0 +1,15 @@
+<mat-toolbar class="menu-bar">
+    <span class="title">Foodie Restaurant</span>
+    <div class="move">
+      <ul>
+        <li><a (click)="additems()">Add-Item</a></li>
+        <li><a (click)="reply()">Response</a></li>
+        <li><a (click)="addemployee()">Add-Employee</a></li>
+
+        <li><button mat-icon-button class="logout-button" (click)="logout()">Logout</button></li>
+      </ul>
+    </div>
+  </mat-toolbar>
+  
+  <router-outlet></router-outlet>
+  

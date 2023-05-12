@@ -1,0 +1,14 @@
+<mat-toolbar class="menu-bar">
+  <span class="title">Foodie Restaurant</span>
+  <div class="move">
+    <ul>
+      <li><a (click)="home()">Home</a></li>
+      <li><a (click)="Menu()">Day-Wise-Menu</a></li>
+      <li><a (click)="todayspecial()">Today-Special</a></li>
+      <li><a (click)="contactus()">Contact-us</a></li>
+      <li><a (click)="reviews()">Reviews/Queries</a></li>
+      <li><button mat-icon-button class="logout-button" (click)="logout()">Logout</button></li>
+    </ul>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
