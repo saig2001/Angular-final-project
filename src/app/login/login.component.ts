@@ -54,7 +54,7 @@ export class LoginComponent implements OnInit {
             this.log.token=response.accessToken;
             this.status=true;
             if(response.user.type=="admin")
-                this.route.navigate(['admin/additems']);
+                this.route.navigate(['admin/adminhome']);
             else
                 this.route.navigate(['user/menubar/home']);
           },
