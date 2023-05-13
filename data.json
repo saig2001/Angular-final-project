@@ -114,28 +114,28 @@
     {
       "id":1,
       "name": "Cheeseburger",
-      "price": "Price - $8.99",
+      "price": "$8.99",
       "image": "Cheeseburger.jpg",
       "type": "Veg"
     },
     {
       "id":2, 
       "name": "Chicken burger",
-      "price": "Price - $12.99",
+      "price": "$12.99",
       "image": "Chicken burger.jpg",
       "type": "Non-veg"
     },
     {
       "id":3,
       "name": "Pizza",
-      "price": "Price - $10.99",
+      "price": "$10.99",
       "image": "Pizza.jpg",
       "type": "Non-veg"
     },
     {
       "id":4,
       "name": "Chicken pizza",
-      "price": "Price - $7.99",
+      "price": "$7.99",
       "image": "Chicken pizza.jpg",
       "type": "Non-veg"
       
@@ -143,7 +143,7 @@
     {
       "id":5,
       "name": "Shawarma",
-      "price": "Price - $11.99",
+      "price": "$11.99",
       "image": "Shawarma.jpg",
       "type": "Non-veg"
 
@@ -151,7 +151,7 @@
     {
       "id":6,
       "name": "Cake",
-      "price": "Price - $13.99",
+      "price": "$13.99",
       "image": "Cake.jpg",
       "type": "Non-veg"
       
@@ -159,7 +159,7 @@
     {
       "id":7,
       "name": "Egg less cake",
-      "price": "Price - $9.99",
+      "price": "$9.99",
       "image": "Egg less cake.jpg",
       "type": "Veg"
       
@@ -167,14 +167,14 @@
     {
       "id":8,
       "name": "Veg biryani",
-      "price": "Price - $14.99",
+      "price": "$14.99",
       "image": "Veg biryani.jpg",
       "type": "veg"
     },
     {
       "id":9,
       "name": "Chicken biryani",
-      "price": "Price - $11.99",
+      "price": "$11.99",
       "image": "Chicken biryani.jpg",
       "type": "Non-veg"
         
@@ -182,98 +182,98 @@
     {
       "id":10,
       "name": "Mutton biryani",
-      "price": "Price - $16.99",
+      "price": "$16.99",
       "image": "Mutton biryani.jpg",
       "type": "Non-veg"
     },
     {
       "id":11,
       "name": "Prawns biryani",
-      "price": "Price - $20.99",
+      "price": "$20.99",
       "image": "Prawns biryani.jpg",
       "type": "Non-veg"
     },
     {
       "id":12,
       "name": "Egg rice",
-      "price": "Price - $16.99",
+      "price": "$16.99",
       "image": "Egg rice.jpg",
       "type": "Non-veg"
     },
     {
       "id":13,
       "name": "Paneer rice",
-      "price": "Price - $10.99",
+      "price": "$10.99",
       "image": "Paneer rice.jpg",
       "type": "Veg"
     },
     {
       "id":14,
       "name": "Gobi rice",
-      "price": "Price - $8.99",
+      "price": "$8.99",
       "image": "Gobi rice.jpg",
       "type": "veg"
     },
     {
       "id":15,
       "name": "Chicken parotta",
-      "price": "Price - $5.99",
+      "price": "$5.99",
       "image": "Chicken parotta.jpg",
       "type": "Non-veg"
     },
     {
       "id":16,
       "name": "Parotta",
-      "price": "Price - $3.99",
+      "price": "$3.99",
       "image": "Parotta.jpg",
       "type": "Veg"
     },
     {
       "id":17,
       "name": "Egg parotta",
-      "price": "Price - $4.99",
+      "price": "$4.99",
       "image": "Egg parotta.jpg",
       "type": "Non-veg"
     },
     {
       "id":18,
       "name": "Dosa",
-      "price": "Price - $6.99",
+      "price": "$6.99",
       "image": "Dosa.jpg",
       "type": "Veg"
     },
     {
       "id":19,
       "name": "Egg dosa",
-      "price": "Price - $4.99",
+      "price": "$4.99",
       "image": "Egg dosa.jpg",
       "type": "Non-veg"
     },
     {
       "id":20,
       "name": "Idly",
-      "price": "Price - $2.9",
+      "price": "$2.9",
       "image": "Idly.jpg",
       "type": "Veg"
     },
     {
       "id":21,
       "name": "Sambar Idly",
-      "price": "Price - $5.99",
+      "price": "$5.99",
       "image": "Sambar Idly.jpg",
       "type": "Veg"
     },
     {
       "id":22,
       "name": "Chicken Dosa",
-      "price": "Price - $13.99",
+      "price": "$13.99",
       "image": "chicken Dosa.jpg",
       "type": "Non-veg"
     },
     {
       "id":23,
       "name": "Keema Dosa",
-      "price": "Price - $15.99",
+      "price": "$15.99",
       "image": "Keema Dosa.jpg",
       "type": "Non-veg"
     }
